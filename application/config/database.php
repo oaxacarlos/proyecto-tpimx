@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'password',
-	'database' => 'tpimx_wms',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -100,8 +100,8 @@ $db['sql_server'] = array(
 	'dsn'	=> '',
 	'hostname' => 'jetuser',
 	//'hostname' => 'tpimx_new_server',
-	'username' => 'jet',
-	'password' => 'Access123jet!',
+	'username' => '',
+	'password' => '',
 	//'database' => 'TPI_MX_2017_Live',
 	//'database' => 'TPI_MX_2017UAT',
 	'database' => 'TPI_MX_2017_LiveB',
@@ -125,12 +125,12 @@ $db['sql_server'] = array(
 
 $db['sql_server_live'] = array(
 	'dsn'	=> '',
-	'hostname' => 'nav_live',
-	'username' => 'kosmotek1',
-	'password' => 'K05motek!',
-	//'database' => 'TPI_MX_2017_Live',
-	'database' => 'TPI_MX_2017_LiveB',
-	'dbdriver' => 'odbc',
+	'hostname' => '',
+	'username' => '',
+	'password' => '!',
+	//'database' => '',
+	'database' => '',
+	'dbdriver' => '',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -149,9 +149,9 @@ $db['sql_server_live'] = array(
 //---
 $db['sql_server_local'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localsqlserver',
-	'username' => 'AzureAD\RaimunSuandi',
-	'password' => '010203',
+	'hostname' => '',
+	'username' => 'AzureAD',
+	'password' => '',
 	//'database' => 'TPI_MX_2017_Live',
 	'database' => 'TPI_MX_2017_Live0509',
 	'dbdriver' => 'odbc',
@@ -175,23 +175,23 @@ $db['sql_server_local'] = array(
 $db['default2'] = array(
 	'dsn'	=> '',
 
-	/*'hostname' => '192.168.0.96',
+	/*'hostname' => '',
 	'username' => 'user1',
 	'password' => 's!I_z@5x0Qf]S@kL',
 */
 
-'hostname' => '192.168.0.98',
-'username' => 'user1',
-'password' => 'r?c@*h4b7F>y;=2R',
+'hostname' => '',
+'username' => '',
+'password' => '',
 
 
 /*	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'zxcvbn',*/
+	'username' => '',
+	'password' => '',*/
 
 
 	'database' => 'tpimx_nav',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => '',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -210,8 +210,8 @@ $db['default2'] = array(
 $db['default_client'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
+	'username' => '',
+	'password' => '',
 	'database' => 'tpimx_client',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -238,12 +238,12 @@ $db['default_oprc'] = array(
 
 
 	/*'hostname' => '192.168.0.98',
-	'username' => 'user1',
-	'password' => 'r?c@*h4b7F>y;=2R',
+	'username' => '',
+	'password' => '',
 	*/
 
 	'database' => 'tpimx_oprc',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => '',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -263,8 +263,8 @@ $db['default_oprc'] = array(
 $db['tpimx_purchasing'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'password',
+	'username' => '',
+	'password' => '',
 	'database' => 'tpimx_purchasing',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
